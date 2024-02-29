@@ -1,4 +1,4 @@
-# Parte backend del project work ITS Ferrara 2024 by Gianni Chen
+# Parte backend senza docker del project work ITS Ferrara 2024 by Gianni Chen
 
 ## Installation:
 1. __npm install__
