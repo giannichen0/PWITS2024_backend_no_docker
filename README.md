@@ -1,9 +1,10 @@
 # Parte backend senza docker del project work ITS Ferrara 2024 by Gianni Chen
 
 ## Installation:
-1. __npm install__
-2. __crea un .env file con i tuoi dati__
-3. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
+1. 
+2. __npm install__
+3. __crea un .env file con i tuoi dati__
+4. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
 
 ## .env file requirements:
 - MONGO_DB_URI: la tua connection string di mongoDb
