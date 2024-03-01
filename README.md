@@ -1,9 +1,11 @@
 # Parte backend senza docker del project work ITS Ferrara 2024 by Gianni Chen
 
 ## Installation:
-1. __npm install__
-2. __crea un .env file con i tuoi dati__
-3. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
+1. __git clone https://github.com/giannichen0/PWITS2024_backend_no_docker.git__
+2. __cd PWITS2024_backend_no_docker__
+3. __npm install__
+4. __crea un .env file con i tuoi dati__
+5. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
 
 ## .env file requirements:
 - MONGO_DB_URI: la tua connection string di mongoDb
@@ -37,6 +39,8 @@ Se elimino un Patient, elimino tutti gli Exam e Report che hanno un vincolo con 
 Se elimino un Report, elimino tutti gli Exam che hanno come soggetto quel Report
 
 ## Endpoints
+L'applicazione usa JWT per l'autenticazione e per le autorizzazioni
+
 /doctor e /patient usano l'access token per prendere l'id dell'utente loggato
 
 Tutte le rotte implementano le logiche descritte in mongoDb Schemas
