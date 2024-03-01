@@ -1,10 +1,11 @@
 # Parte backend senza docker del project work ITS Ferrara 2024 by Gianni Chen
 
 ## Installation:
-1. 
-2. __npm install__
-3. __crea un .env file con i tuoi dati__
-4. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
+1. __git clone https://github.com/giannichen0/PWITS2024_backend_no_docker.git__
+2. __cd PWITS2024_backend_no_docker__
+3. __npm install__
+4. __crea un .env file con i tuoi dati__
+5. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
 
 ## .env file requirements:
 - MONGO_DB_URI: la tua connection string di mongoDb
