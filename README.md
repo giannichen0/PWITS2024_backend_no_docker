@@ -7,6 +7,8 @@
 4. __crea un .env file con i tuoi dati__
 5. __npm start__ o __npm run dev__ se vuoi lanciarlo in development 
 
+## Nota bene: questa versione non è provvisto dell'installazione di chromium neccessario a puppeteer
+
 ## .env file requirements:
 - MONGO_DB_URI: la tua connection string di mongoDb
 - ACCESS_TOKEN_SECRET: il tuo access_token_secret
